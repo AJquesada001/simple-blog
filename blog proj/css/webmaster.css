@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .parent_signup{
+      display: flex;
+    justify-content: center;
+  
+  }
+  
+  /* Add padding to containers */
+  .container {
+  border: groove red;
+    padding: 16px;
+    background-color: white;
+    height: 600x;
+    width: 500px;
+    text-align: center;
+    box-shadow: 15px 10px 10px rgb(209, 37, 117);
+      -webkit-box-shadow: 15px 10px 10px rgb(209, 37, 117);
+      -moz-box-shadow: 15px 10px 10px rgb(209, 37, 117);
+      -o-box-shadow: 15px 10px 10px rgb(209, 37, 117);
+  
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  
+  h3 {
+      font-family: 'Times New Roman', Times, serif;
+      position: relative;
+      text-transform: uppercase;
+      letter-spacing: 6px;
+      font-size: 50px;
+      font-weight: 900;
+      text-decoration: none;
+      color: white;
+      display: inline-block;
+      background-size: 120% 100%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
+      -ms-background-clip: text;
+      -ms-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+      background-image: linear-gradient(45deg, 
+                        #00b6bc, 
+                        #00b6bc,
+                        #00b6bc,
+                        #00b6bc);
+      animation: .8s shake infinite alternate;
+    }
+    
+    @keyframes shake {
+      0% { transform: skewX(-15deg); }
+      5% { transform: skewX(15deg); }
+      10% { transform: skewX(-15deg); }
+      15% { transform: skewX(15deg); }
+      20% { transform: skewX(0deg); }
+      100% { transform: skewX(0deg); }  
+    }

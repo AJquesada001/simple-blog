@@ -1,0 +1,21 @@
+:root{
+--scrollbar-thumb: #534d63;
+--scrollbar-track: #f3f2f2;
+}
+
+.name-scroll::-webkit-scrollbar,
+section#left-col::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+.name-scroll::-webkit-scrollbar-thumb,
+section#left-col::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb);
+}
+
+.name-scroll::-webkit-scrollbar-track,
+section#left-col::-webkit-scrollbar-track {
+  background-color: var(--scrollbar-track);
+}
+
+
